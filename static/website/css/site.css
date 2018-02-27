@@ -1,0 +1,134 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, table, th, td {margin:0; padding:0;}
+a{
+    text-decoration: none;
+    color: #2f2f2f;
+}
+a:focus, a:hover{
+    text-decoration: none;
+
+}
+.main .slide{
+    margin-bottom: 32px;
+}
+.carousel{
+    border:1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
+.recommend-collection .collection{
+    display: inline-block;
+    min-height: 32px;
+    margin:0 18px 18px 0;
+    vertical-align: top;
+    border:1px solid #dcdcdc;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+.recommend-collection .collection img{
+    width: 32px;
+    height: 32px;
+}
+.recommend-collection .collection .collection-name{
+    display: inline-block;
+    padding: 0 11px 0 6px;
+    font-size: 14px;
+}
+.more-hot-collection{
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 14px;
+    color: #787878;
+}
+.note-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.note-list li {
+    position: relative;
+    width: 100%;
+    margin: 0 0 17px;
+    padding: 0 2px 17px 0;
+    border-bottom: 1px solid #f0f0f0;
+    word-wrap: break-word;
+}
+.note-list .author{
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+.note-list .author .info, .note-list .author .avatar{
+    display: inline-block;
+    vertical-align: middle;
+}
+.note-list .author .info .time{
+    padding-left: 3px;
+    color: #969696;
+}
+.note-list .author .avatar{
+    margin:0 5px 0 0;
+}
+.note-list .title {
+    margin: -7px 0 4px;
+    display: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.note-list .abstract {
+    margin: 0 0 8px;
+    font-size: 13px;
+    line-height: 24px;
+}
+.avatar img{
+    height:32px;
+    width:32px;
+    border:1px solid #f0f0f0;
+    border-radius: 50%;
+}
+.note-list .collection-tag {
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: -1px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1;
+    vertical-align: middle;
+    color: #ea6f5a !important;
+    border: 1px solid rgba(236,97,73,.7);
+    border-radius: 3px;
+}
+.note-list .meta span {
+    margin-right: 10px;
+    color: #b4b4b4;
+}
+.note-list .have-img .wrap-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid #f0f0f0;
+}
+.note-list .have-img .wrap-img {
+    position: absolute;
+    top: 50%;
+    margin-top: -68px;
+    right: 0;
+    width: 150px;
+    height: 120px;
+}
+.note-list .have-img > div {
+    padding-right: 160px;
+}
+.btn-norm {
+    color: #fff;
+    background-color: #ec6149;
+}
+.btn-norm:hover, .btn-norm:focus{
+    color: #fff;
+}
